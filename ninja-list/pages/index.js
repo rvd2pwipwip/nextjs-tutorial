@@ -1,5 +1,6 @@
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -18,6 +19,9 @@ export default function Home() {
         consequuntur tempora, veritatis sit asperiores velit quas explicabo ea?
         Tempore, optio quae?
       </p>
+      <Link href='/ninjas'>
+        <a>See Ninja Listing</a>
+      </Link>
       <Footer />
     </div>
   );
